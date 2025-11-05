@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+         body{
+        margin:0px;
+        padding:0px;
+        }
+       ul{
+       background-color:black;
+       position:sticky;
+       top:10px;
+   } 
+    ul li{
+       background-color: lightgray;
+       display:inline-block;
+       padding:4px;
+      
+   } 
+    ul li:hover{
+        background-color:green;
+        color:white;
+        padding-left:25px;
+        transition:0.9s;
+    } 
+    
+    H1{
+        color:white;
+    }
+        
+.first{background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAnV3y_TzhkAZDezfJ0k5E6Yb1kwGfVpcAopQ3Fcy2986dHmXhIBRYDZw&s=10');
+    height:500px;
+}  
+.ques{
+    margin:10px;
+  
+}
+details{
+    border:1px solid black;
+    background-color:cyan;
+    color:black;
+}  
+ 
+summary{
+    border:1px solid black;
+    background-color:blue;
+    color:white;
+}   
+ 
+p{
+    background-color:red;
+    color:white;
+    width:100%;
+    height:80px;
+    text-align:center;
+    padding-top:70px;
+} 
+pre{
+    padding:10px;
+    border:1px solid black;
+}
+ 
+ 
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#home" style="text-decoration:none;color:black;">Home</a></li>
+        <li><a href="#about" style="text-decoration:none; color:black;">About</a></li>
+        <li><a href="#111" style="text-decoration:none; color:black;">Code</a></li>
+        <li>Contact</li>
+    </ul>
+    <div class="first" id="home"><br><br><br><br><br><br><br>
+        <H1 align="center" style="text-shadow:1px 2px black;">Code with<br> Abu Sufiyan</H1>
+    </div><br><br><br>
+    
+    
+    
+    
+    
+    <div class="ques">
+        <span id="about">
+    I am student of Fatima school, Balrampur in class 10 B <br>
+    This Web site designed by giant company named as </span><br>
+  
+    <details><summary>What is HTML?</summary>HTML, or HyperText Markup Language, is the standard language used to create and structure web pages. It defines the content and layout of a website using a system of tags, which tell a web browser how to display text, images, links, and other elements. HTML is the foundational technology of the web, and it works alongside CSS for styling and JavaScript for interactivity to build a complete webpage</details><br>
+    <details>
+        <summary>What is CSS?</summary>
+        CSS, which stands for Cascading Style Sheets, is a stylesheet language used to describe the presentation of a document written in a markup language, most commonly HTML. It's a fundamental technology for web development, working alongside HTML (which provides the structure and content) and JavaScript (which adds interactivity). 
+    </details><br>
+<details>
+   <summary>What is JavaScript?</summary>
+   JavaScript is a high-level, interpreted programming language primarily known for enabling dynamic and interactive content on websites. It is one of the three core technologies of the World Wide Web, working alongside HTML (for content structure) and CSS (for styling). 
+</details>   
+    </div>
+<br><br><br><br>
+
+<img src="/storage/emulated/0/DCIM/screenshots/11.jpg" alt="hi" height="300px" width="90%" id="111">    
+   <br><br> 
+   
+   
+   
+   
+   
+   
+   
+   
+  
+   <pre>
+ &lt;table border="5px" bgcolor="yellow" <br>bordercolor="blue" cellspacing="0" <br>width="90%" align="center"&gt;
+        &lt;tr&gt;
+            &lt;th colspan="2"&gt;Name&lt;/th&gt;
+            &lt;th&gt;Class&lt;/th&gt;
+            &lt;th&gt;School&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan="2"&gt;Aqif&lt;/td&gt;
+            &lt;td rowspan="2"&gt;Abu&lt;/td&gt;
+            &lt;td&gt;10&lt;/td&gt;
+            &lt;td rowspan="2"&gt;MLK School<br>&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;B&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan="2"&gt;Aqib&lt;/td&gt;
+            &lt;td rowspan="2"&gt;Safwan&lt;/td&gt;
+            &lt;td&gt;11&lt;/td&gt;
+            &lt;td rowspan="2"&gt;HLK School<br>&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;C&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan="2"&gt;Aqif&lt;/td&gt;
+            &lt;td rowspan="2"&gt;Abu&lt;/td&gt;
+            &lt;td&gt;10&lt;/td&gt;
+            &lt;td rowspan="2"&gt;BLK School<br>&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;B&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;   
+  
+  </pre>  
+<p>Thanks For Watching</p>
+    
+    
+    
+</body>
+</html>
